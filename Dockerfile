@@ -1,3 +1,3 @@
-FROM nginx:alpine
+FROM twalter/openshift-nginx
 
 COPY ./ /usr/share/nginx/html
